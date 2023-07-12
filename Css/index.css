@@ -176,7 +176,7 @@ button {
 }
 /*  regestration  */
 .container1{
-  margin: auto;
+    margin: auto;
     height: 812px;
     max-width: 375px;
     background-color: var(--bg-color);
