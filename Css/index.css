@@ -1,71 +1,240 @@
 :root {
-    --body-font-family: Roboto;
-    --light-gray: #666666;
-    --redish-color: #FB6F6F;
-    --bluish-color: #34B5FD;
-    --turquoise-color: #4BC0BB;
+  --body-font-family: Roboto;
+  --light-gray: #666666;
+  --redish-color: #fb6f6f;
+  --bluish-color: #34b5fd;
+  --turquoise-color: #4bc0bb;
 }
 
 body {
-    font-family: var(--body-font-family), var(--bs-body-font-family);
+  font-family: var(--body-font-family), var(--bs-body-font-family);
 }
 
 .container {
-    max-width: 375px;
+  max-width: 375px;
 }
 
 button {
-    background: none;
-    border: none;
-    padding: 0%;
+  background: none;
+  border: none;
+  padding: 0%;
 }
-
-
 
 /* utils: */
 
 .fs-18px {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 .fs-14px {
-    font-size: 0.875rem
+  font-size: 0.875rem;
 }
 
 .fs-12px {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .text-gray {
-    color: var(--light-gray);
+  color: var(--light-gray);
 }
 
 .bg-red {
-    background-color: var(--redish-color);
+  background-color: var(--redish-color);
 }
 
 .bg-blue {
-    background-color: var(--bluish-color);
+  background-color: var(--bluish-color);
 }
 
 .bg-turq {
-    background-color: var(--turquoise-color);
+  background-color: var(--turquoise-color);
 }
-
-
-
-
 
 /* dashboard.html's Css */
 
-
 .project-card {
-    border-radius: 0.625rem;
+  border-radius: 0.625rem;
 }
 
 .bg-design {
-    background-image: url(../Assets/Images/Group-79.png);
-    height: 17.5rem;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url(../Assets/Images/Group-79.png);
+  height: 17.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+body {
+  font-family: roboto;
+}
+
+@font-face {
+  font-family: roboto;
+  font-style: normal;
+  src: url(./font/Roboto-Medium.ttf);
+}
+:root {
+  --blou-color: #8ff8ffa1;
+  --red-color: #ff0101;
+  --gry-color: #666666;
+  --pink-color: #ffb4b4a1;
+  --green-color: #b8ff5fa6;
+  --prple-color: #918effa1;
+  --left-margin: 12px;
+  --redus-border: 20px;
+  --left-padding: 20px;
+}
+
+.my-container {
+  margin: auto;
+  max-width: 375px;
+}
+
+.div1-page6 {
+  width: 100%;
+  height: 185px;
+  background-image: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.div1-div1-page6 {
+  margin: var(--left-margin);
+  margin-top: 60px;
+}
+
+.b-div1 {
+  margin-top: 110px;
+  margin-left: 140px;
+}
+
+.div2-page6 {
+  position: relative;
+  left: var(--left-margin);
+}
+
+.div3-page6 {
+  gap: 30px;
+  position: relative;
+  left: var(--left-margin);
+}
+
+.p1-div3-page6 {
+  color: var(--red-color);
+  text-align: center;
+}
+
+.p22-div3-page6 {
+  color: var(--gry-color);
+  text-align: center;
+}
+
+.p2-div3-page6 {
+  text-align: center;
+}
+
+.p-div4-page6 {
+  color: var(--gry-color);
+  margin-top: 5px;
+}
+
+.mian-div-page6 {
+  position: relative;
+  left: var(--left-margin);
+}
+
+.mian-div1-page6 {
+  gap: 35px;
+}
+
+.mian-div2-page6 {
+  gap: 28px;
+}
+
+.mian-div3-page6 {
+  gap: 27px;
+}
+
+.mian-div4-page6 {
+  gap: 40px;
+}
+
+.mian-div5-page6 {
+  gap: 37px;
+}
+
+.mian-div6-page6 {
+  gap: 37px;
+}
+
+.div-div4-page6 {
+  background-color: var(--pink-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 50px;
+}
+
+.div-div5-page6 {
+  background-color: var(--green-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 125px;
+}
+
+.p-p-div5-page6 {
+  color: var(--gry-color);
+}
+
+.div-div6-page6 {
+  background-color: var(--blou-color);
+  padding: 12px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 50px;
+}
+
+.div-div7-page6 {
+  background-color: var(--prple-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 146px;
+}
+
+.p2-div4-page6 {
+  position: relative;
+  top: 20px;
+}
+
+.div-div8-page6 {
+  background-color: var(--pink-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 65px;
+}
+
+.p3-div4-page6 {
+  position: relative;
+  top: 20px;
+}
+
+.div-div9-page6 {
+  background-color: var(--green-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 50px;
+}
+
+.p4-div4-page6 {
+  position: relative;
+  top: 10px;
+} /*# sourceMappingURL=mian.css.map */
