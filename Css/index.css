@@ -132,3 +132,160 @@ button {
 .gray-7 {
   color: rgba(102, 102, 102, 1);
 }
+
+/* today's task.html */
+
+.my-container {
+  margin: auto;
+  max-width: 375px;
+}
+
+.div1-page6 {
+  width: 100%;
+  height: 185px;
+  background-image: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.div1-div1-page6 {
+  margin: var(--left-margin);
+  margin-top: 60px;
+}
+
+.b-div1 {
+  margin-top: 110px;
+  margin-left: 140px;
+}
+
+.div2-page6 {
+  position: relative;
+  left: var(--left-margin);
+}
+
+.div3-page6 {
+  gap: 30px;
+  position: relative;
+  left: var(--left-margin);
+}
+
+.p1-div3-page6 {
+  color: var(--red-color);
+  text-align: center;
+}
+
+.p22-div3-page6 {
+  color: var(--gry-color);
+  text-align: center;
+}
+
+.p2-div3-page6 {
+  text-align: center;
+}
+
+.p-div4-page6 {
+  color: var(--gry-color);
+  margin-top: 5px;
+}
+
+.mian-div-page6 {
+  position: relative;
+  left: var(--left-margin);
+}
+
+.mian-div1-page6 {
+  gap: 35px;
+}
+
+.mian-div2-page6 {
+  gap: 28px;
+}
+
+.mian-div3-page6 {
+  gap: 27px;
+}
+
+.mian-div4-page6 {
+  gap: 40px;
+}
+
+.mian-div5-page6 {
+  gap: 37px;
+}
+
+.mian-div6-page6 {
+  gap: 37px;
+}
+
+.div-div4-page6 {
+  background-color: var(--pink-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 50px;
+}
+
+.div-div5-page6 {
+  background-color: var(--green-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 125px;
+}
+
+.p-p-div5-page6 {
+  color: var(--gry-color);
+}
+
+.div-div6-page6 {
+  background-color: var(--blou-color);
+  padding: 12px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 50px;
+}
+
+.div-div7-page6 {
+  background-color: var(--prple-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 146px;
+}
+
+.p2-div4-page6 {
+  position: relative;
+  top: 20px;
+}
+
+.div-div8-page6 {
+  background-color: var(--pink-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 65px;
+}
+
+.p3-div4-page6 {
+  position: relative;
+  top: 20px;
+}
+
+.div-div9-page6 {
+  background-color: var(--green-color);
+  padding: 10px;
+  padding-left: var(--left-padding);
+  border-radius: var(--redus-border);
+  width: 75%;
+  height: 50px;
+}
+
+.p4-div4-page6 {
+  position: relative;
+  top: 10px;
+}
