@@ -4,6 +4,15 @@
   --redish-color: #fb6f6f;
   --bluish-color: #34b5fd;
   --turquoise-color: #4bc0bb;
+  --blou-color: #8ff8ffa1;
+  --red-color: #ff0101;
+  --gry-color: #666666;
+  --pink-color: #ffb4b4a1;
+  --green-color: #b8ff5fa6;
+  --prple-color: #918effa1;
+  --left-margin: 12px;
+  --redus-border: 20px;
+  --left-padding: 20px;
 }
 
 body {
@@ -71,17 +80,6 @@ body {
   font-family: roboto;
   font-style: normal;
   src: url(./font/Roboto-Medium.ttf);
-}
-:root {
-  --blou-color: #8ff8ffa1;
-  --red-color: #ff0101;
-  --gry-color: #666666;
-  --pink-color: #ffb4b4a1;
-  --green-color: #b8ff5fa6;
-  --prple-color: #918effa1;
-  --left-margin: 12px;
-  --redus-border: 20px;
-  --left-padding: 20px;
 }
 
 .my-container {
