@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+  font-family: "roboto-400";
+  src: url(../Assets/fonts/Roboto-Regular.woff2) format("woff2");
+  }
+
+@font-face {
+  font-family: "roboto-700";
+  src: url(../Assets/fonts/Roboto-Bold.woff2) format("woff2");
+} 
+
 :root {
   --body-font-family: Roboto;
   --light-gray: #666666;
@@ -13,7 +25,13 @@
   --left-margin: 12px;
   --redus-border: 20px;
   --left-padding: 20px;
+  --bg-color: #FCFFFF;
+  --gray: #666666;
+  --line-gray: #dadada;
+  --light-blue: #57C3BE;
 }
+
+
 
 body {
   font-family: var(--body-font-family), var(--bs-body-font-family);
@@ -57,6 +75,30 @@ button {
 
 .bg-turq {
   background-color: var(--turquoise-color);
+}
+
+.light-bg{
+  background-color: var(--bg-color);
+}
+
+.text-gray{
+  color: var(--gray);
+}
+
+.line-gray{
+  background-color: var(--line-gray);
+}
+
+.light-blue-bg{
+  background-color: var(--light-blue);
+}
+
+.ff-roboto-400{
+  font-family: roboto-400;
+}
+
+.ff-roboto-700{
+  font-family: roboto-700;
 }
 
 /* dashboard.html's Css */
@@ -131,4 +173,44 @@ button {
 }
 .gray-7 {
   color: rgba(102, 102, 102, 1);
+}
+/*  regestration  */
+.container1{
+    margin: auto;
+    height: 812px;
+    max-width: 375px;
+    background-color: var(--bg-color);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.second-bg-img{
+    margin-top: -6.1rem;
+    margin-left: -4.96rem;
+}
+.first-bg-img{
+    margin-left: -1.25rem;
+}
+.personal-div{
+    margin-top: -6.7rem;
+}
+.tell-us-div{
+    margin-top: 1.5rem;
+}
+.name{
+    margin-top: 3.5rem;
+}
+.line-1{
+    height: 0.0625rem;
+}
+.email{
+    margin-top: 1.5rem;
+}
+.button-1{
+    border: none;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    box-shadow: 0px 4px 5px 0px rgba(114, 114, 114, 0.47);
+}
+.button-div{
+    margin-top: 2rem;
 }
